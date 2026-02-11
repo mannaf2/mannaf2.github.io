@@ -33,7 +33,7 @@ permalink: /research/
 
 ---
 
-## 📝 Journal Articles [{% if articles %}({{ articles.size }}){% endif %}]
+## 📝 Journal Articles  
 
 {% assign articles = site.data.publications.articles | sort: "year" | reverse %}
 {% assign counter = 0 %}
@@ -46,7 +46,7 @@ permalink: /research/
 
 ---
 
-## 🎤 Conferences [{% if confs %}({{ confs.size }}){% endif %}]
+## 🎤 Conferences  
 
 {% assign confs = site.data.publications.conferences | sort: "year" | reverse %}
 {% assign counterconfs = 0 %}
