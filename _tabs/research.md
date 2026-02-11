@@ -37,12 +37,21 @@ permalink: /research/
 
 {% assign articles = site.data.publications.articles | sort: "year" | reverse %}
 {% assign counter = 0 %}
+
 {% for pub in articles %}
-{% assign counter = counter | plus: 1 %}
+  {% assign counter = counter | plus: 1 %}
+
 **{{ counter }}.** **{{ pub.title }}**  
-  {{ pub.authors }}  
-  *{{ pub.venue }}*, {{ pub.year }} {% if pub.doi %} | [DOI]({{ pub.doi }}){% endif %} {% if pub.pdf %}[PDF]({{ pub.pdf }}){% endif %} {% if pub.arxiv %} | [arXiv]({{ pub.arxiv }}){% endif %}
+{{ pub.authors }}  
+*{{ pub.venue }}* {% if pub.volume %}, Vol. {{ pub.volume }}{% endif %} {% if pub.issue %}, No. {{ pub.issue }}{% endif %}{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}({{ pub.year }})
+{% if pub.doi %} | [DOI]({{ pub.doi }}){% endif %}
+{% if pub.pdf %} | [PDF]({{ pub.pdf }}){% endif %}
+{% if pub.arxiv %} | [arXiv]({{ pub.arxiv }}){% endif %}
+
+<br><br>
+
 {% endfor %}
+
 
 ---
 
