@@ -3,7 +3,7 @@
   venue: "Journal of Applied Mathematics"
   year: 2025
   doi: "https://doi.org/xxxx"
-  pdf: "/assets/pdf/pde-paper.pdf"
+  pdf: ""
   featured: true
 
 - title: "Elliptic Operator Analysis"
