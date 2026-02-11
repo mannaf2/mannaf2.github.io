@@ -33,10 +33,12 @@ permalink: /research/
 
 ---
 
-## 📝 Journal Articles
+## 📝 Journal Articles [{% if articles %}({{ articles.size }}){% endif %}]
 
 {% assign articles = site.data.publications.articles | sort: "year" | reverse %}
+{% assign counter = 0 %}
 {% for pub in articles %}
+{% assign counter = counter | plus: 1 %}
 - **{{ pub.title }}**  
   {{ pub.authors }}  
   *{{ pub.venue }}*, {{ pub.year }} {% if pub.doi %} | [DOI]({{ pub.doi }}){% endif %} {% if pub.pdf %}[PDF]({{ pub.pdf }}){% endif %} {% if pub.arxiv %} | [arXiv]({{ pub.arxiv }}){% endif %}
@@ -44,10 +46,12 @@ permalink: /research/
 
 ---
 
-## 🎤 Conferences
+## 🎤 Conferences [{% if confs %}({{ confs.size }}){% endif %}]
 
 {% assign confs = site.data.publications.conferences | sort: "year" | reverse %}
+{% assign counterconfs = 0 %}
 {% for pub in confs %}
+{% assign counterconfs = counterconfs | plus: 1 %}
 - **{{ pub.title }}**  
   {{ pub.authors }}  
   *{{ pub.venue }}*, {{ pub.year }}  
