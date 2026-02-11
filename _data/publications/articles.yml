@@ -5,7 +5,7 @@
   pages: "460–468"
   year: 2023
   month: September
-  pdf: ""
+  
   doi: "https://doi.org/10.1016/j.aej.2023.09.045"
   featured: false
 
@@ -14,7 +14,7 @@
   venue: "Results in Physics"
   pages: "107324"
   year: 2024
-  pdf: ""
+  
   doi: "https://doi.org/10.1016/j.rinp.2024.107324"
   featured: false
 
@@ -23,7 +23,7 @@
   venue: "Partial Differential Equations in Applied Mathematics"
   pages: "100588"
   year: 2023
-  pdf: ""
+  
   doi: "https://doi.org/10.1016/j.padiff.2023.100588"
   featured: false
 
@@ -34,7 +34,7 @@
   pages: "71"
   year: 2023
   month: December
-  pdf: ""
+  
   doi: "https://doi.org/10.1007/s11082-023-05641-8"
   featured: false
 
@@ -43,7 +43,7 @@
   venue: "Chaos, Solitons & Fractals"
   pages: "114964"
   year: 2024
-  pdf: ""
+  
   doi: "https://doi.org/10.1016/j.chaos.2024.114964"
   featured: false
 
@@ -54,7 +54,7 @@
   issue: 1
   pages: "1416"
   year: 2025
-  pdf: ""
+  
   doi: "https://doi.org/10.1038/s41598-024-74323-6"
   featured: true
 
@@ -65,7 +65,7 @@
   issue: 1
   pages: "9970003"
   year: 2025
-  pdf: ""
+  
   doi: "https://doi.org/10.1155/admp/9970003"
   featured: true
 
@@ -73,6 +73,6 @@
   authors: "Md. Ekramul Islam, Md. Abde Mannaf, Mst. Tania Khatun, Md. Azizur Rahman, Md. Abdul Akbar, Udoy S. Basak"
   venue: "Journal of Ocean Engineering and Science"
   year: 2025
-  pdf: ""
+  
   doi: "https://doi.org/10.1016/j.joes.2025.08.008"  # Adjusted based on publication pattern; confirm exact article number if needed
   featured: true
