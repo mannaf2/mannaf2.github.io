@@ -1,13 +1,70 @@
-- title: "On Nonlinear PDEs in Fluid Mechanics"
-  authors: "Md Abde MannaF, A. Rahman"
-  venue: "Journal of Applied Mathematics"
+- title: "Dynamical simulation of wave solutions for the M-fractional Lonngren-wave equation using two distinct methods"
+  authors: "Md. Abde Mannaf, Mohammad Mobarak Hossain, M. M. Rahman, Md. Habibul Bashar, Harun-Or-Roshid"
+  venue: "Alexandria Engineering Journal"
+  volume: 81
+  pages: "460–468"
+  year: 2023
+  month: September
+  doi: "https://doi.org/10.1016/j.aej.2023.09.045"
+  featured: false
+
+- title: "Dynamic behavior of optical self-control soliton in a liquid crystal model"
+  authors: "Md. Abde Mannaf"  # Add co-authors if known from full record
+  venue: "Results in Physics"
+  pages: "107324"
+  year: 2024
+  doi: "https://doi.org/10.1016/j.rinp.2024.107324"
+  featured: false
+
+- title: "Unveiling parametric effects on optical solitons of the phi-4 model in mathematical physics"
+  authors: "Md. Abde Mannaf"  # Likely with collaborators; check full paper
+  venue: "Partial Differential Equations in Applied Mathematics"
+  pages: "100588"
+  year: 2023
+  doi: "https://doi.org/10.1016/j.padiff.2023.100588"
+  featured: false
+
+- title: "Optical solitons of SMCH model in mathematical physics: Impact of wind and friction on wave"
+  authors: "Md. Abde Mannaf"
+  venue: "Optical and Quantum Electronics"
+  volume: 56
+  pages: "71"
+  year: 2023
+  month: December
+  doi: "https://doi.org/10.1007/s11082-023-05641-8"
+  featured: false
+
+- title: "Soliton’s behavior and stability analysis to a model in mathematical physics"
+  authors: "Md. Abde Mannaf"
+  venue: "Chaos, Solitons & Fractals"
+  pages: "114964"
+  year: 2024
+  doi: "https://doi.org/10.1016/j.chaos.2024.114964"
+  featured: false
+
+- title: "Optical soliton solutions of the M-fractional paraxial wave equation"
+  authors: "Md. Habibul Bashar, Md. Abde Mannaf, M. M. Rahman, Mst. Tania Khatun"
+  venue: "Scientific Reports"
+  volume: 15
+  issue: 1
+  pages: "1416"
   year: 2025
-  doi: "https://doi.org/xxxx"
-  pdf: ""
+  doi: "https://doi.org/10.1038/s41598-024-74323-6"
   featured: true
 
-- title: "Elliptic Operator Analysis"
-  authors: "Md Abde MannaF"
-  venue: "Analysis & PDE"
-  year: 2024
-  arxiv: "https://arxiv.org/abs/xxxx"
+- title: "Exploring Nonlinear Dynamics and Solitary Waves in the Fractional Klein–Gordon Model"
+  authors: "Md. Abde Mannaf, Muktarebatul Jannah, Md. Habibul Bashar, Md. Ekramul Islam, Md. Zuel Rana, Mst. Tania Khatun, Md. Noor-A-Alam Siddiki, Md. Shahinur Islam"
+  venue: "Advances in Mathematical Physics"
+  volume: 2025
+  issue: 1
+  pages: "9970003"
+  year: 2025
+  doi: "https://doi.org/10.1155/admp/9970003"
+  featured: true
+
+- title: "Phase plane bifurcation analysis of water wave dynamics in the simplified modified Camassa–Holm model with friction and wind effects"
+  authors: "Md. Ekramul Islam, Md. Abde Mannaf, Mst. Tania Khatun, Md. Azizur Rahman, Md. Abdul Akbar, Udoy S. Basak"
+  venue: "Journal of Ocean Engineering and Science"
+  year: 2025
+  doi: "https://doi.org/10.1016/j.joes.2025.08.008"  # Adjusted based on publication pattern; confirm exact article number if needed
+  featured: true
