@@ -6,8 +6,6 @@ math: true
 permalink: /research/
 order: 5
 ---
-
- 
 <!-- ---
 layout: page
 title: Research
@@ -40,19 +38,8 @@ permalink: /research/
 
 {% for pub in articles %}
   {% assign counter = counter | plus: 1 %}
-
 <!-- **{{ counter }}.** **{{ pub.title }}**   -->
-**{{ counter }}.** {{ pub.authors }}.  
-**{{ pub.title }}**.  
-*{{ pub.venue }}*
-{% if pub.volume %}, {{ pub.volume }}{% endif %}
-{% if pub.issue %} ({{ pub.issue }}){% endif %}
-{% if pub.pages %}, {{ pub.pages }}{% endif %},
-{{ pub.year }}.
-
-{% if pub.doi %} | [DOI]({{ pub.doi }}){% endif %}
-{% if pub.pdf %} | [PDF]({{ pub.pdf }}){% endif %}
-{% if pub.arxiv %} | [arXiv]({{ pub.arxiv }}){% endif %}
+**{{ counter }}.** {{ pub.authors }}.  **{{ pub.title }}**.  *{{ pub.venue }}.{% if pub.volume %}, {{ pub.volume }}{% endif %} {% if pub.issue %} ({{ pub.issue }}){% endif %} {% if pub.pages %}, {{ pub.pages }}{% endif %}, {{ pub.year }}. {% if pub.doi %} | [DOI]({{ pub.doi }}){% endif %} {% if pub.pdf %} | [PDF]({{ pub.pdf }}){% endif %} {% if pub.arxiv %} | [arXiv]({{ pub.arxiv }}){% endif %}
 {% endfor %}
 
 
