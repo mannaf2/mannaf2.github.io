@@ -43,13 +43,15 @@ permalink: /research/
 
 **{{ counter }}.** **{{ pub.title }}**  
 {{ pub.authors }}  
-*{{ pub.venue }}* {% if pub.volume %}, Vol. {{ pub.volume }}{% endif %} {% if pub.issue %}, No. {{ pub.issue }}{% endif %}{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}({{ pub.year }})
+*{{ pub.venue }}*
+{% if pub.volume %}, Vol. {{ pub.volume }}{% endif %}
+{% if pub.issue %},( {{ pub.issue }}){% endif %}
+{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}
+({{ pub.year }})
+
 {% if pub.doi %} | [DOI]({{ pub.doi }}){% endif %}
 {% if pub.pdf %} | [PDF]({{ pub.pdf }}){% endif %}
 {% if pub.arxiv %} | [arXiv]({{ pub.arxiv }}){% endif %}
-
-<br><br>
-
 {% endfor %}
 
 
