@@ -28,7 +28,6 @@ permalink: /research/
   {% if pub.pdf %}[PDF]({{ pub.pdf }}){% endif %}
   {% if pub.doi %} | [DOI]({{ pub.doi }}){% endif %}
   {% if pub.arxiv %} | [arXiv]({{ pub.arxiv }}){% endif %}
-
   {% endif %}
 {% endfor %}
 
@@ -40,10 +39,7 @@ permalink: /research/
 {% for pub in articles %}
 - **{{ pub.title }}**  
   {{ pub.authors }}  
-  *{{ pub.venue }}*, {{ pub.year }}  
-  {% if pub.pdf %}[PDF]({{ pub.pdf }}){% endif %}
-  {% if pub.doi %} | [DOI]({{ pub.doi }}){% endif %}
-  {% if pub.arxiv %} | [arXiv]({{ pub.arxiv }}){% endif %}
+  *{{ pub.venue }}*, {{ pub.year }} {% if pub.doi %} | [DOI]({{ pub.doi }}){% endif %} {% if pub.pdf %}[PDF]({{ pub.pdf }}){% endif %} {% if pub.arxiv %} | [arXiv]({{ pub.arxiv }}){% endif %}
 {% endfor %}
 
 ---
