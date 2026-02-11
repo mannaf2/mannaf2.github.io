@@ -39,7 +39,7 @@ permalink: /research/
 {% assign counter = 0 %}
 {% for pub in articles %}
 {% assign counter = counter | plus: 1 %}
-- **{{ pub.title }}**  
+- **{{ counter }}. ** **{{ pub.title }}** {{pub.size }} 
   {{ pub.authors }}  
   *{{ pub.venue }}*, {{ pub.year }} {% if pub.doi %} | [DOI]({{ pub.doi }}){% endif %} {% if pub.pdf %}[PDF]({{ pub.pdf }}){% endif %} {% if pub.arxiv %} | [arXiv]({{ pub.arxiv }}){% endif %}
 {% endfor %}
@@ -52,7 +52,7 @@ permalink: /research/
 {% assign counterconfs = 0 %}
 {% for pub in confs %}
 {% assign counterconfs = counterconfs | plus: 1 %}
-- **{{ pub.title }}**  
+- **{{ counterconfs }}.** **{{ pub.title }}**  
   {{ pub.authors }}  
   *{{ pub.venue }}*, {{ pub.year }}  
   {% if pub.pdf %}[PDF]({{ pub.pdf }}){% endif %}
